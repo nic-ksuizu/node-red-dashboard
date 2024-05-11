@@ -361,6 +361,7 @@ main {
 /* Vuetify Overrides */
 .v-app-bar.v-toolbar,
 .v-navigation-drawer {
+    position: sticky;
     background: rgb(var(--v-theme-navigation-background));
     color: rgba(var(--v-theme-on-navigation-background), var(--v-high-emphasis-opacity));
 }
